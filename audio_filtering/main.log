@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.8)  5 APR 2024 22:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.8)  5 APR 2024 23:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1303,64 +1303,56 @@ LaTeX Info: Redefining \nameref on input line 63.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-
-
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
-
-\tf@toc=\write6
-\openout6 = `main.toc'.
-
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 8
-9.
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
-File: ts1txr.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 1
-06.
+ (./main.toc
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 7
+.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 1
-06.
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 7
+.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 1
-06.
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 7
+.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 1
-06.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 7
+.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 7
+.
 
-LaTeX Warning: Reference `prob:input' on page 1 undefined on input line 108.
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
+File: ts1txr.fd 2000/12/15 v3.1
+))
+\tf@toc=\write6
+\openout6 = `main.toc'.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 108--111
 
  []
 
-<audio_filtering (1)/figs/original.png, id=9, 820.06375pt x 550.055pt>
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+<audio_filtering (1)/figs/original.png, id=67, 820.06375pt x 550.055pt>
 File: audio_filtering (1)/figs/original.png Graphic file (type png)
 <use audio_filtering (1)/figs/original.png>
 Package pdftex.def Info: audio_filtering (1)/figs/original.png  used on input l
 ine 114.
 (pdftex.def)             Requested size: 214.20154pt x 143.67398pt.
-
-LaTeX Warning: Reference `prob:output' on page 1 undefined on input line 146.
-
-
-LaTeX Warning: Reference `prob:spectrogram' on page 1 undefined on input line 1
-46.
-
-<audio_filtering (1)/figs/reduced_noise.png, id=11, 820.06375pt x 550.055pt>
+<audio_filtering (1)/figs/reduced_noise.png, id=71, 820.06375pt x 550.055pt>
 File: audio_filtering (1)/figs/reduced_noise.png Graphic file (type png)
 <use audio_filtering (1)/figs/reduced_noise.png>
 Package pdftex.def Info: audio_filtering (1)/figs/reduced_noise.png  used on in
@@ -1373,7 +1365,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--155
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 146--155
-\OT1/txr/m/n/12 in Prob-lem [] is the au-dio file
+\OT1/txr/m/n/12 in Prob-lem []2.3[] is the au-dio file
  []
 
 
@@ -1386,131 +1378,52 @@ Underfull \hbox (badness 6927) in paragraph at lines 146--155
 \OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 The key strokes as well as
  []
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
+Underfull \vbox (badness 5345) has occurred while \output is active []
 
- <./audio_filtering (1)/figs/original.png>]
-
-LaTeX Warning: Reference `prob:2.1' on page 2 undefined on input line 176.
-
-
-LaTeX Warning: Reference `prob:2.2' on page 2 undefined on input line 176.
-
-<figs/Plot_xn_yn.png, id=59, 462.528pt x 346.896pt>
+ [2 <./audio_filtering (1)/figs/original.png> <./audio_filtering (1)/figs/reduc
+ed_noise.png>]
+<figs/Plot_xn_yn.png, id=115, 462.528pt x 346.896pt>
 File: figs/Plot_xn_yn.png Graphic file (type png)
 <use figs/Plot_xn_yn.png>
 Package pdftex.def Info: figs/Plot_xn_yn.png  used on input line 183.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
-
-LaTeX Warning: Reference `eq:z_trans' on page 2 undefined on input line 208.
-
-
-LaTeX Warning: Reference `eq:shift1' on page 2 undefined on input line 214.
-
-
-LaTeX Warning: Reference `prob:2.2' on page 2 undefined on input line 226.
-
-
-LaTeX Warning: Reference `eq:z_trans_shift' on page 2 undefined on input line 2
-28.
-
-
-LaTeX Warning: Reference `prob:2.2' on page 2 undefined on input line 228.
-
-[2 <./audio_filtering (1)/figs/reduced_noise.png> <./figs/Plot_xn_yn.png>]
-
-LaTeX Warning: Reference `eq:unit_step' on page 3 undefined on input line 265.
-
-
-LaTeX Warning: Reference `eq:freq_resp' on page 3 undefined on input line 296.
-
-<figs/H(z)_3.5.png, id=93, 462.528pt x 346.896pt>
+ [3 <./figs/Plot_xn_yn.png>]
+<figs/H(z)_3.5.png, id=156, 462.528pt x 346.896pt>
 File: figs/H(z)_3.5.png Graphic file (type png)
 <use figs/H(z)_3.5.png>
 Package pdftex.def Info: figs/H(z)_3.5.png  used on input line 311.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
-
-LaTeX Warning: Reference `prob:2.2' on page 3 undefined on input line 327.
-
-
-LaTeX Warning: Reference `eq:freq_resp' on page 3 undefined on input line 329.
-
-[3 <./figs/H(z)_3.5.png>]
-
-LaTeX Warning: Reference `eq:anun' on page 4 undefined on input line 335.
-
-
-LaTeX Warning: Reference `eq:z_trans_shift' on page 4 undefined on input line 3
-35.
-
-<figs/hn.png, id=124, 462.528pt x 346.896pt>
+<figs/hn.png, id=161, 462.528pt x 346.896pt>
 File: figs/hn.png Graphic file (type png)
 <use figs/hn.png>
 Package pdftex.def Info: figs/hn.png  used on input line 344.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
-
-LaTeX Warning: Reference `prob:2.2' on page 4 undefined on input line 353.
-
-
-LaTeX Warning: Reference `eq:impulse_resp' on page 4 undefined on input line 35
-3.
-
-
-LaTeX Warning: Reference `eq:stabilty_condn' on page 4 undefined on input line 
-354.
-
-
+ [4 <./figs/H(z)_3.5.png> <./figs/hn.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 372--378
 
  []
 
-
-LaTeX Warning: Reference `fig:hndef' on page 4 undefined on input line 379.
-
-
-LaTeX Warning: Reference `fig:hn' on page 4 undefined on input line 380.
-
-<figs/hndef.png, id=125, 462.528pt x 346.896pt>
+<figs/hndef.png, id=193, 462.528pt x 346.896pt>
 File: figs/hndef.png Graphic file (type png)
 <use figs/hndef.png>
 Package pdftex.def Info: figs/hndef.png  used on input line 387.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
-
-LaTeX Warning: Reference `fig:hn' on page 4 undefined on input line 388.
-
-
-LaTeX Warning: Reference `eq:convolution' on page 4 undefined on input line 399
-.
-
-
-LaTeX Warning: Reference `fig:ynconv' on page 4 undefined on input line 403.
-
-
-LaTeX Warning: Reference `fig:xnyn' on page 4 undefined on input line 405.
-
-<figs/y_by_conv.png, id=126, 462.528pt x 346.896pt>
+<figs/y_by_conv.png, id=198, 462.528pt x 346.896pt>
 File: figs/y_by_conv.png Graphic file (type png)
 <use figs/y_by_conv.png>
 Package pdftex.def Info: figs/y_by_conv.png  used on input line 412.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 
-LaTeX Warning: Reference `eq:convolution' on page 4 undefined on input line 422
-.
-
-[4 <./figs/hn.png> <./figs/hndef.png>]
-
 LaTeX Warning: Command \j invalid in math mode on input line 446.
 
-<figs/yn_verf_5.4.png, id=157, 462.528pt x 346.896pt>
+[5 <./figs/hndef.png> <./figs/y_by_conv.png>]
+<figs/yn_verf_5.4.png, id=230, 462.528pt x 346.896pt>
 File: figs/yn_verf_5.4.png Graphic file (type png)
 <use figs/yn_verf_5.4.png>
 Package pdftex.def Info: figs/yn_verf_5.4.png  used on input line 463.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
-
-LaTeX Warning: Reference `eq:fp' on page 5 undefined on input line 496.
-
-[5 <./figs/y_by_conv.png> <./figs/yn_verf_5.4.png>]
-<figs/yn_DFT_matrix.png, id=186, 462.528pt x 346.896pt>
+<figs/yn_DFT_matrix.png, id=232, 462.528pt x 346.896pt>
 File: figs/yn_DFT_matrix.png Graphic file (type png)
 <use figs/yn_DFT_matrix.png>
 Package pdftex.def Info: figs/yn_DFT_matrix.png  used on input line 507.
@@ -1545,7 +1458,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 528--532
 
  []
 
-<audio_filtering (1)/figs/plot.png, id=187, 722.7pt x 406.8801pt>
+<audio_filtering (1)/figs/plot.png, id=233, 722.7pt x 406.8801pt>
 File: audio_filtering (1)/figs/plot.png Graphic file (type png)
 <use audio_filtering (1)/figs/plot.png>
 Package pdftex.def Info: audio_filtering (1)/figs/plot.png  used on input line 
@@ -1555,11 +1468,7 @@ Package pdftex.def Info: audio_filtering (1)/figs/plot.png  used on input line
 LaTeX Warning: Reference `prob:audio_filter_problem' on page 6 undefined on inp
 ut line 545.
 
-
-LaTeX Warning: Reference `eq:iir_filter_gen' on page 6 undefined on input line 
-551.
-
-
+[6 <./figs/yn_verf_5.4.png> <./figs/yn_DFT_matrix.png>]
 Overfull \hbox (27.65247pt too wide) detected at line 554
 []
  []
@@ -1568,25 +1477,6 @@ Overfull \hbox (27.65247pt too wide) detected at line 554
 Overfull \hbox (7.96732pt too wide) detected at line 562
 []
  []
-
-
-LaTeX Warning: Reference `eq:iir_filter_gen' on page 6 undefined on input line 
-563.
-
-
-LaTeX Warning: Reference `eq:trans-func' on page 6 undefined on input line 568.
-
-
-[6 <./figs/yn_DFT_matrix.png> <./audio_filtering (1)/figs/plot.png>]
-
-LaTeX Warning: Reference `eq:trans-func-pfe' on page 7 undefined on input line 
-578.
-
-
-LaTeX Warning: Reference `eq:res-1' on page 7 undefined on input line 578.
-
-
-LaTeX Warning: Reference `eq:res-2' on page 7 undefined on input line 578.
 
 
 Underfull \hbox (badness 2460) in paragraph at lines 582--584
@@ -1599,48 +1489,40 @@ Overfull \hbox (11.16565pt too wide) in paragraph at lines 5--14
  []
 
 )
-<audio_filtering (1)/figs/stemplot.png, id=214, 462.528pt x 320.1561pt>
+<audio_filtering (1)/figs/stemplot.png, id=266, 462.528pt x 320.1561pt>
 File: audio_filtering (1)/figs/stemplot.png Graphic file (type png)
 <use audio_filtering (1)/figs/stemplot.png>
 Package pdftex.def Info: audio_filtering (1)/figs/stemplot.png  used on input l
 ine 590.
 (pdftex.def)             Requested size: 252.0pt x 174.4352pt.
-
-
-LaTeX Warning: Reference `eq:stabilty_condn' on page 7 undefined on input line 
-595.
-
-<audio_filtering (1)/figs/Filter_Response.png, id=215, 462.528pt x 346.896pt>
+ [7 <./audio_filtering (1)/figs/plot.png> <./audio_filtering (1)/figs/stemplot.
+png>]
+<audio_filtering (1)/figs/Filter_Response.png, id=293, 462.528pt x 346.896pt>
 File: audio_filtering (1)/figs/Filter_Response.png Graphic file (type png)
 <use audio_filtering (1)/figs/Filter_Response.png>
 Package pdftex.def Info: audio_filtering (1)/figs/Filter_Response.png  used on 
 input line 607.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
-[7 <./audio_filtering (1)/figs/stemplot.png> <./audio_filtering (1)/figs/Filter
-_Response.png>] (./main.aux)
+ [8
+
+ <./audio_filtering (1)/figs/Filter_Response.png>] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  13128033725C862C8F5182BEE2F27518;824.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 13128033725C862C8F5182BEE2F27518;824.
  ) 
 Here is how much of TeX's memory you used:
- 43881 strings out of 478287
- 1008079 string characters out of 5849290
- 1832706 words of memory out of 5000000
- 61179 multiletter control sequences out of 15000+600000
- 543969 words of font info for 180 fonts, out of 8000000 for 9000
+ 43889 strings out of 478287
+ 1008181 string characters out of 5849290
+ 1762706 words of memory out of 5000000
+ 61186 multiletter control sequences out of 15000+600000
+ 542619 words of font info for 178 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 115i,17n,118p,424b,1433s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 115i,17n,118p,424b,1261s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/typ
@@ -1651,10 +1533,10 @@ are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
 /utmri8a.pfb>
-Output written on main.pdf (7 pages, 340402 bytes).
+Output written on main.pdf (8 pages, 346747 bytes).
 PDF statistics:
- 319 PDF objects out of 1000 (max. 8388607)
- 263 compressed objects within 3 object streams
- 169 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 387 PDF objects out of 1000 (max. 8388607)
+ 329 compressed objects within 4 object streams
+ 170 named destinations out of 1000 (max. 500000)
+ 129 words of extra memory for PDF output out of 10000 (max. 10000000)
 
