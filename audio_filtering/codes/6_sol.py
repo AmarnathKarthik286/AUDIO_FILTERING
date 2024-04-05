@@ -15,21 +15,21 @@ x=np.pad(xtemp, (0,8), 'constant', constant_values=(0))
 
 X = np.zeros(N) + 1j*np.zeros(N)
 for k in range(0,N):
-	for n in range(0,N):
-		X[k]+=x[n]*np.exp(-1j*2*np.pi*n*k/N)  #Answer of 5.1
+  for n in range(0,N):
+    X[k]+=x[n]*np.exp(-1j*2*np.pi*n*k/N)  #Answer of 5.1
 H = np.zeros(N) + 1j*np.zeros(N)
 for k in range(0,N):
-	for n in range(0,N):
-		H[k]+=h[n]*np.exp(-1j*2*np.pi*n*k/N) #Answer of 5.1
+  for n in range(0,N):
+    H[k]+=h[n]*np.exp(-1j*2*np.pi*n*k/N) #Answer of 5.1
 
 Y = np.zeros(N) + 1j*np.zeros(N)
 for k in range(0,N):
-	Y[k] = X[k]*H[k]                 #Answer of 5.2
+  Y[k] = X[k]*H[k]                 #Answer of 5.2
 
 y = np.zeros(N) + 1j*np.zeros(N)
 for k in range(0,N):
-	for n in range(0,N):
-		y[k]+=Y[n]*np.exp(1j*2*np.pi*n*k/N)   #Answer of 5.3
+  for n in range(0,N):
+    y[k]+=Y[n]*np.exp(1j*2*np.pi*n*k/N)   #Answer of 5.3
 
 #print(X)
 y = np.real(y)/N
