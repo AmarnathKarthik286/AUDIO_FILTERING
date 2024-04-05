@@ -1,40 +1,39 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from scipy import signal
+import soundfile as sf
 
-# Adjusted values of r(i), p(i), and k(i)
-r_values = [0.06029142-0.14682007j , 0.06029142+0.14682007j, -0.06029459+0.02518904j,
- -0.06029459-0.02518904j]
+#read .wav file 
+input_signal,fs = sf.read('audio.wav') 
 
-p_values = [0.88475217+0.0445749j,  0.88475217-0.0445749j , 0.94427798+0.11485352j,
- 0.94427798-0.11485352j]
+#sampling frequency 
+sampl_freq=fs
 
-k_values = [2.19006287e-05, 0, 0, 0]
+#order of the filter
+order=4
 
-# Time indices
-n_values = np.arange(31)  # n values up to 30
+#cutoff frquency 4kHz
+cutoff_freq=4000.0 
 
-# Compute h(n)
-hn_values = np.zeros_like(n_values, dtype=np.complex128)
-for n in n_values:
-    for i in range(len(r_values)):
-        hn_values[n] += r_values[i] * (p_values[i] ** n)
-    for j in range(len(k_values)):
-        if n - j >= 0:
-            hn_values[n] += k_values[j]
+#digital frequency
+Wn=2*cutoff_freq/sampl_freq  
 
-# Compute the frequency response using FFT
-N = len(hn_values)
-Hk_values = np.fft.fft(hn_values)
+# b and a are numerator and denominator polynomials respectively
+b, a = signal.butter(order, Wn, 'low') 
 
-# Frequency values
-freq = np.fft.fftfreq(N)
+#DTFT
+def H(z):
+  num = np.polyval(b,z**(-1))
+  den = np.polyval(a,z**(-1))
+  H = num/den
+  return H
+    
+#Input and Output
+omega = np.linspace(0,np.pi,100)
 
-# Plot
-plt.figure(figsize=(8, 6))
-plt.plot(freq, np.abs(Hk_values))
-plt.xlabel('Frequency')
-plt.ylabel('Magnitude')
-plt.title('Filter Frequency Response')
-plt.grid(True)
-plt.show()
-
+#subplots
+plt.plot(omega, abs(H(np.exp(1j*omega))))
+plt.xlabel('$\omega$')
+plt.ylabel('$|H(e^{\jmath\omega})| $')
+plt.grid()
+plt.savefig("Filter_Response")
